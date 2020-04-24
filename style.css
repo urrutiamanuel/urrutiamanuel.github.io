@@ -1,9 +1,8 @@
-body
-{
+body{
     margin: 0;
     padding: 0;
     text-align: center;
-    background: linear-gradient(rgba(0, 0, 50, 0.5),rgba(0, 0, 50, 0.5)), url(coching.jpeg);
+    background: linear-gradient(rgb(250, 248, 249),rgba(0, 0, 50, 0.5)), url(coaching.jpg);
     background-size: cover
     background-position: center;
     font-family: sans-serif;
@@ -11,8 +10,8 @@ body
 
 .contact-title
 {
-    margin-top: 50px;
-    color: #fff;
+    margin-top: 100px;
+    color: rgb(14, 5, 5);
     text-transform: uppercase;
     transition: all 4s ease;
 }
