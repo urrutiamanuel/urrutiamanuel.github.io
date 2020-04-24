@@ -13,7 +13,7 @@ body{
     margin-top: 100px;
     color: rgb(14, 5, 5);
     text-transform: uppercase;
-    transition: all 4s ease;
+    transition: none; 
 }
 
 .contact-title h1{
@@ -28,7 +28,7 @@ body{
 form
 {
     margin: 50px;
-    transition: all 4s ease-in-out;
+    transition: none;
 
 }
 
@@ -51,7 +51,7 @@ input
 
 form .submit
 {
-    background: #ff5722;
+    background: #dd1212;
     border-color: transparent;
     color: #fff;
     font-size: 20px;
@@ -63,6 +63,6 @@ form .submit
 
 form .submit:hover
 {
-    background-color: #f44336;
+    background-color: #161111;
     cursor: pointer;
 }
