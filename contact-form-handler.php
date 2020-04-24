@@ -3,6 +3,7 @@
     $visitor_email = $_POST['email'];
     $message = $_POST['message'];
 
+    
     $email_from = 'murrutia@humana.com';
 
     $email_subject = "Feedback form";
@@ -11,11 +12,16 @@
                     "User Email: $visitor_email.\n".
                         "User message: $message.\n";
 
-    $to = "andisamadrid@gmail.com"
+    
+    $to = "andisamadrid@gmail.com";
 
     $headers = "from: $email_from\r\n";
+
     $headers = "reply-to: $visitor_email \r\n";
 
-    mail($to,$email_subject.$email_body,$headers);
+    mail($to,$email_subject,$email_body,$headers);
+
     header("Location: index.html");
+
+
 ?>
